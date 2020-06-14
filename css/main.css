@@ -180,13 +180,9 @@ body {
 
 /* Section */
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
-.section.no-padding {
-  padding-top: 0;
-}
 .section-title {
   margin-top: 0;
   margin-bottom: 50px;
@@ -268,6 +264,11 @@ body {
 }
 
 /* Team */
+.our-team {
+  background-color: var(--secondary-bg-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team {
   display: flex;
   flex-wrap: wrap;
@@ -280,9 +281,6 @@ body {
 
 .team .item:nth-child(4n) {
   margin-right: 0;
-}
-.our-team {
-  background-color: var(--secondary-bg-color);
 }
 
 .team-img {
