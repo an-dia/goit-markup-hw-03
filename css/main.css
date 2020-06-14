@@ -296,6 +296,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
 }
 
 .team .team-text {
@@ -304,6 +305,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  text-align: center;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 24px;
 }
 
 .team .link:hover,
