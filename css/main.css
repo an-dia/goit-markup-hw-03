@@ -348,10 +348,7 @@ body {
 
 .flex-footer {
   display: flex;
-}
-
-.info {
-  margin-right: 70px;
+  justify-content: space-between;
 }
 
 .footer .link {
@@ -376,10 +373,6 @@ body {
 
 .join {
   padding-top: 10px;
-}
-
-.join-in {
-  margin-right: 95px;
 }
 
 .footer .text {
@@ -415,15 +408,6 @@ body {
 
 /*Portfolio*/
 /*Filter*/
-/* .conteiner-test {
-  outline: 2px solid blueviolet;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1400px;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
-
 .filter {
   display: flex;
   justify-content: center;
