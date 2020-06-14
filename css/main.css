@@ -350,13 +350,21 @@ body {
 /*Footer*/
 .footer {
   background-color: #2f303a;
+}
+
+.footer .conteiner {
   padding-top: 45px;
-  padding-bottom: 20px;
 }
 
 .flex-footer {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  align-items: baseline;
+}
+
+.info {
+  margin-right: 69px;
+  padding-bottom: 28px;
 }
 
 .footer .link {
@@ -367,7 +375,6 @@ body {
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
-  margin-bottom: 9px;
 }
 
 .footer .link:focus {
@@ -379,15 +386,15 @@ body {
   color: var(--accent-color);
 }
 
-.join {
-  padding-top: 10px;
-}
-
 .footer .text {
   color: #ffffff;
   font-style: normal;
   margin-top: 8px;
   margin-bottom: 9px;
+}
+
+.join-in {
+  margin-right: 94px;
 }
 
 .join-text {
@@ -407,6 +414,12 @@ body {
 
 .copy {
   color: rgba(255, 255, 255, 0.4);
+
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 21px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 
   font-weight: 400;
   font-size: 12px;
