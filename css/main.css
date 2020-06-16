@@ -156,6 +156,13 @@ body {
 
   color: #757575;
   text-decoration: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -534,11 +541,13 @@ body {
   text-decoration: none;
 }
 
-.portfolio .portfolio-img {
+.portfolio .card-img {
   display: block;
+  min-width: 100%;
+  height: auto;
 }
 
-.card-contert {
+.card-content {
   background: #ffffff;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
