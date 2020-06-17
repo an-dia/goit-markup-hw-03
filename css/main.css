@@ -143,6 +143,7 @@ body {
 /*Auth-nav*/
 .auth-nav {
   display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -151,9 +152,6 @@ body {
 }
 
 .auth-nav .link {
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   color: #757575;
   text-decoration: none;
 
