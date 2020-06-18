@@ -52,9 +52,9 @@
       <!--Приоритет-->
       <section class="section">
         <div class="conteiner">
-          <!-- <h2 class="section-title">Приоритет</h2> -->
+          <h2 class="visually-hidden">Приоритет</h2>
           <ul class="priority list">
-            <li class="item">
+            <li class="priority-item">
               <a href="" class="priority-link">
                 <img
                   class="priority-img"
@@ -70,7 +70,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
+            <li class="priority-item">
               <a href="" class="priority-link">
                 <img
                   class="priority-img"
@@ -86,7 +86,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item">
+            <li class="priority-item">
               <a href="" class="priority-link">
                 <img
                   class="priority-img"
@@ -102,7 +102,7 @@
                 степени обуславливает.
               </p>
             </li>
-            <li class="item">
+            <li class="priority-item">
               <a href="" class="priority-link">
                 <img
                   class="priority-img"
@@ -125,9 +125,9 @@
         <div class="conteiner">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
-            <li class="item">
+            <li class="work-item">
               <img
-                class="work-list-img"
+                class="img"
                 src="./images/desktop-applications.jpg"
                 alt="ноутбук"
                 width="370"
@@ -135,9 +135,9 @@
               />
               <a href="" class="work-link">Десктопные приложения</a>
             </li>
-            <li class="item">
+            <li class="work-item">
               <img
-                class="work-list-img"
+                class="img"
                 src="./images/mobile-applications.jpg"
                 alt="мобильный-телефон"
                 width="370"
@@ -145,9 +145,9 @@
               />
               <a href="" class="work-link">Мобильные приложения</a>
             </li>
-            <li class="item">
+            <li class="work-item">
               <img
-                class="work-list-img"
+                class="img"
                 src="./images/designer-groves.jpg"
                 alt="экран-компьютера"
                 width="370"
@@ -163,12 +163,14 @@
         <div class="conteiner">
           <h2 class="section-title">Наша команда</h2>
           <ul class="team list">
-            <li class="item">
+            <li class="team-item">
               <a class="team-link" href="">
                 <img
-                  class="team-img"
+                  class="img"
                   src="./images/team-1.jpg"
                   alt="николай-кучеренко"
+                  width="270"
+                  height="260"
                 />
               </a>
               <div class="team-content">
@@ -196,12 +198,14 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <a class="team-link" href="">
                 <img
-                  class="team-img"
+                  class="img"
                   src="./images/team-2.jpg"
                   alt="ольга-иванова"
+                  width="270"
+                  height="260"
                 />
               </a>
               <div class="team-content">
@@ -229,12 +233,14 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <a class="team-link" href=""
                 ><img
-                  class="team-img"
+                  class="img"
                   src="./images/team-3.jpg"
                   alt="андрей-шевченко"
+                  width="270"
+                  height="260"
                 />
               </a>
               <div class="team-content">
@@ -262,12 +268,14 @@
                 </ul>
               </div>
             </li>
-            <li class="item">
+            <li class="team-item">
               <a class="team-link" href=""
                 ><img
-                  class="team-img"
+                  class="img"
                   src="./images/team-4.jpg"
                   alt="иван-николаев"
+                  width="270"
+                  height="260"
                 />
               </a>
               <div class="team-content">
@@ -374,52 +382,50 @@
       </section>
     </main>
     <!--Подвал-->
-    <footer>
-      <div class="footer">
-        <div class="conteiner">
-          <div class="flex-footer">
-            <!-- Первый контейнер -->
-            <div class="info">
-              <a href="./index.html" class="logo" lang="en"
-                >Web <span class="logo-secondary">Studio</span>
-              </a>
-              <address class="address">
-                <a class="map link" href="./index.html"
-                  >г. Киев, пр-т Леси Украинки, 26</a
-                >
-                <a class="mail-link link" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
-                <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
-              </address>
-            </div>
-            <!-- Второй контейнер -->
-            <div class="join join-in">
-              <b class="join-text">Присоединяйтесь</b>
-              <ul class="list link-footer">
-                <li class="item">
-                  <a href="" class="link" aria-label="ссылка на instagram">i</a>
-                </li>
-                <li class="item">
-                  <a href="" class="link" aria-label="ссылка на twitter">t</a>
-                </li>
-                <li class="item">
-                  <a href="" class="link" aria-label="ссылка на facebook">f</a>
-                </li>
-                <li class="item">
-                  <a href="" class="link" aria-label="ссылка на linkedin">l</a>
-                </li>
-              </ul>
-            </div>
-            <!-- Третий контейнер -->
-            <div class="join">
-              <b class="join-text">Подпишитесь на рассылку</b>
-              <a href="" class="button">Подписаться</a>
-            </div>
+    <footer class="footer">
+      <div class="conteiner">
+        <div class="flex-footer">
+          <!-- Первый контейнер -->
+          <div class="info">
+            <a href="./index.html" class="logo" lang="en"
+              >Web <span class="logo-secondary">Studio</span>
+            </a>
+            <address class="address">
+              <a class="map link" href="./index.html"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+              <a class="mail-link link" href="mailto:info@example.com"
+                >info@example.com</a
+              >
+              <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            </address>
           </div>
-          <!-- Копирайт -->
-          <p class="copy">2020 | Developed by GoIT Students</p>
+          <!-- Второй контейнер -->
+          <div class="join join-in">
+            <b class="join-text">Присоединяйтесь</b>
+            <ul class="list link-footer">
+              <li class="item">
+                <a href="" class="link" aria-label="ссылка на instagram">i</a>
+              </li>
+              <li class="item">
+                <a href="" class="link" aria-label="ссылка на twitter">t</a>
+              </li>
+              <li class="item">
+                <a href="" class="link" aria-label="ссылка на facebook">f</a>
+              </li>
+              <li class="item">
+                <a href="" class="link" aria-label="ссылка на linkedin">l</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Третий контейнер -->
+          <div class="join">
+            <b class="join-text">Подпишитесь на рассылку</b>
+            <a href="" class="button">Подписаться</a>
+          </div>
         </div>
+        <!-- Копирайт
+          <p class="copy">2020 | Developed by GoIT Students</p> -->
       </div>
     </footer>
   </body>
